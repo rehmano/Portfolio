@@ -1,0 +1,32 @@
+.cover-image {
+    background: gray url("../images/wallpaper.jpg") no-repeat fixed 35% -30vh;
+    background-position: center;
+    height: 80vh;
+}
+
+.container-fluid {
+    padding-top: 3vh;
+    padding-bottom:3vh;
+}
+
+.jumbotron {
+    background: rgb(33,33,33);
+}
+
+.h1 {
+    color: white;
+}
+
+#box {
+    /* The box that will responsively resize */
+    position: relative;
+}
+#box img {
+    display: block;
+}
+#box .static {
+    /* The static image helps responsively resizing the bounding box correctly */ 
+    width: 100%;
+    height: auto;
+    max-height:90vh;
+}
