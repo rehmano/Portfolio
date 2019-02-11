@@ -1,7 +1,5 @@
-.cover-image {
-    background: gray url("../images/wallpaper.jpg") no-repeat fixed 35% -30vh;
-    background-position: center;
-    height: 80vh;
+body {
+    background-color: black;
 }
 
 .container-fluid {
@@ -9,12 +7,27 @@
     padding-bottom:3vh;
 }
 
+.card {
+    margin-top: 1vh;
+    margin-bottom:1vh
+}
+
+.card-title {
+    color:white;
+}
+
+
+
 .jumbotron {
     background: rgb(33,33,33);
 }
 
 .h1 {
     color: white;
+}
+
+.nav-link {
+    outline: 0;
 }
 
 #box {
@@ -28,5 +41,55 @@
     /* The static image helps responsively resizing the bounding box correctly */ 
     width: 100%;
     height: auto;
-    max-height:90vh;
+    max-height:100vh;
 }
+@media (max-width: 992px) {
+    #aboutme {
+        text-align: center;
+        margin-left: 3vh;
+        margin-right: 3vh;
+        margin-top:1vh;
+    }
+    #bottomrow {
+        width: 100%;
+    }
+    #box img{
+        display: none;
+    }
+    #box .static {
+        height: 60vh;
+        width: auto;
+        max-width: 200vw;
+    }
+}
+
+.card-block a {
+    padding-bottom:1vh;
+    text-align: right;
+    color: white
+}
+
+
+.card-icons {
+    margin: 1vh;
+}
+
+.card-block span {
+    color:#6b747c;
+}
+
+.ct-btn-scroll {
+    width: 49px;
+    height: 49px;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 400px;
+    z-index: 9;
+    border-radius: 50%;
+    -webkit-transition: background-color 0.25s ease-in-out;
+    transition: background-color 0.25s ease-in-out;
+    outline: 0;
+  }
