@@ -22,14 +22,14 @@
     <!-- Own custom CSS -->
     <link rel="stylesheet" href="assets/css/custom.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
+    
     <link rel="icon" href="assets/images/title.ico">
     <title>Syed Rehman</title>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<body id="home">
+
+    <nav id="navbar" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark animated fadeInDown">
         <a class="navbar-brand" href="#">Syed Rehman</a>
 
         <!-- Collapsable button for mobile -->
@@ -47,24 +47,23 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="education.html">Education</a>
+                    <a class="nav-link" href="education.html">Education & Experience</a>
                 </li>
             </ul>
-
+            <a class="nav-link" style="margin-right:1em" href="https://github.com/rehmano/Portfolio">Fork me!</a>
             <a href="https://github.com/rehmano/Portfolio" class="fab fa-github fa-2x" role="button"></a>
         </div>
 
     </nav>
 
-    <div id="box">
+    <div id="header">
         <section id="top">
             <img src="assets/images/wallpaper.jpg" class="static">
-            <a class="ct-btn-scroll animated fadeInDown" href="#text"><i class="far fa-arrow-alt-circle-down fa-5x"
-                    style="color:#212121"></i></a>
+            <a class="btn-scroll animated fadeInDown delay-1s" href="#text"><i class="far fa-arrow-alt-circle-down fa-5x" style="color:#212121"></i></a>
         </section>
     </div>
 
-    <nav class="navbar bg-dark" style="height:5vh"></nav>
+    <nav id="stylebar" class="navbar bg-dark"></nav>
 
     <div class="container-fluid">
         <section id="text">
@@ -91,7 +90,7 @@
                     <div class="card animated fadeInUp slow card-body bg-dark">
                         <h2 class="card-title">Welcome to my website!</h2>
                         <h6 class="card-subtitle mb-2 text-muted"></h6>
-                        <p class="card-text" style="color:#6b747c">
+                        <p class="card-text card-text-color">
                             <b>Who am I?</b> Throughout middle school I played a lot of video games, some of which
                             consisted of
                             Runescape, Evony.
@@ -102,7 +101,7 @@
                             my desire to learn more and inspired me to become a developer.
 
                         </p>
-                        <p class="card-text" style="color:#6b747c">
+                        <p class="card-text card-text-color">
                             Through this journey I enhanced my grasp on Java and the Object-Oriented paradigm while
                             spending time
                             to learn the concepts behind a couple other languages such as C and C++.
@@ -114,14 +113,11 @@
                     </div>
 
                     <div id="bottomrow" class="row animated fadeInUp delay-1s">
-                        <div class="col-xl-3">
-
-                        </div>
-                        <div class="col-xl-6">
+                        <div class="col-xl-9">
                             <div class="card card-body bg-dark">
                                 <h4 class="card-title">Interests & Hobbies</h4>
                                 <h6 class="card-subtitle mb-2 text-muted"></h6>
-                                <p class="card-text" style="color:#6b747c">
+                                <p class="card-text card-text-color">
                                     I’ve went around the world! I’ve visited places such as Dubai, Pakistan, Canada,
                                     and
                                     I’ve also been around the United States!
@@ -129,13 +125,13 @@
                                     enjoyed seeing the world so far and how different it is in comparison to my daily
                                     life.
                                 </p>
-                                <p class="card-text" style="color:#6b747c">
+                                <p class="card-text card-text-color">
                                     The states I have lived in for mulitiple years are California and New York. I have
                                     also traveled through
                                     multiple states (Georgia, North + South Carolina...) getting to others such as
                                     Florida.
                                 </p>
-                                <p class="card-text" style="color:#6b747c">
+                                <p class="card-text card-text-color">
                                     As for my hobbies, I usually spend the day out with friends either
                                     longboarding or on walks or I stay inside
                                     exploring video games, music, and unfamiliar programming concepts in an effort to
@@ -177,6 +173,7 @@
         </section>
     </div>
     <!-- Bootstrap core JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
         crossorigin="anonymous"></script>
