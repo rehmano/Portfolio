@@ -34,7 +34,7 @@ body {
     margin-right: 2vw;
 }
 
-.card {
+#home .card {
     margin-top: 1vh;
     margin-bottom:1vh;
 }
@@ -125,11 +125,10 @@ body {
     z-index: 1;
     top: 0;
     overflow-x: hidden;
-    padding-top: 20px;
   }
   
 
-  .left {
+  .lefts {
     left: 0;
 
     background-color: gray;
@@ -144,9 +143,9 @@ body {
 
   }
   
-  .right {
+  .rights {
     right: 0;
-    background-color: black;
+    background-color:black;
   }
   
   .centered {
@@ -155,17 +154,43 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+
+
+  .slideshow-container {
+      width: 100%;
+      position:relative;
+      margin:auto;
+      
+  }
   
-  #table-cards {
-      text-align:center;
+  .slide-img {
+      width: 100%;
+      height: 100%;
+      transform: translate(0%, 30%);
   }
 
-  #table-cards .card {
-      margin: 0;
-      margin-top: 1vh;
-      margin-bottom: 1vh;
+  .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 75%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  color: white;
+}
 
-  }
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
 
 @media (max-width: 992px) {
     body {
@@ -194,7 +219,7 @@ body {
     }
     
     #left-side .card {
-        margin-top: 45px;
+        margin-top: 65px;
     }
     #stylebar {
         display:none;

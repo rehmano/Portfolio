@@ -1,4 +1,3 @@
-s
 <!DOCTYPE html>
 <html>
 
@@ -65,25 +64,25 @@ s
 
     <div id="edu-main">
 
-        <div id="left-side" class="split left center">
+        <div id="left-side" class="split lefts center">
 
             <div id="accordion">
 
-                <div id="classes" class="card bg-dark">
+                <div id="classes" class="card bg-dark animated fadeInLeft" style="margin-top: 100px">
 
                     <div class="card-header">
                         <h5 class="mb-0">
 
-                            <button class="btn btn-dark white" data-toggle="collapse" data-target="#collapseOne"
-                                aria-expanded="true" aria-controls="collapseOne">
+                            <button class="btn btn-dark white" data-toggle="collapse" data-target="#table-cards"
+                                aria-expanded="false" aria-controls="table-cards">
                                 <i class="fa fa-bars" aria-hidden="true"></i> Classes!
                             </button>
 
                         </h5>
                     </div>
 
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                        <div id="table-cards" class="card-body">
+                    <div id="table-cards" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
 
                             <div class="row mx-auto">
 
@@ -204,17 +203,15 @@ s
                     </div>
                 </div>
 
-                <div id="experience" class="card bg-dark">
+                <div id="experience" class="card bg-dark animated fadeInLeft">
 
                     <div class="card-header">
-                        <h5 class="mb-0">
 
-                            <button class="btn btn-dark white" data-toggle="collapse" data-target="#experienceCards"
-                                aria-expanded="true" aria-controls="experienceCards">
-                                <i class="fa fa-bars" aria-hidden="true"></i> Experience!
-                            </button>
+                        <button class="btn btn-dark" data-toggle="collapse" data-target="#experienceCards"
+                            aria-expanded="false" aria-controls="experienceCards">
+                            <i class="fa fa-bars" aria-hidden="true"></i> Experience!
+                        </button>
 
-                        </h5>
                     </div>
 
                     <div id="experienceCards" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
@@ -345,7 +342,24 @@ s
 
         </div>
 
-        <div id="right-side" class="split right">
+        <div id="right-side" class="split rights">
+
+            <div class="slideshow-container">
+                <div class="slide">
+                    <img src="/assets/images/wallpaper.jpg" class="slide-img">
+                </div>
+
+                <div class="slide">
+                    <img src="" class="slide-img">
+                </div>
+
+                <div class="slide">
+                    <img src="" class="slide-img">
+                </div>
+
+                <a class="prev" onclick="" style="color:white">&#10094;</a>
+                <a class="next" onclick="" style="color:white">&#10095;</a>
+            </div>
 
         </div>
 
