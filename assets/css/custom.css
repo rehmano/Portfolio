@@ -145,6 +145,15 @@ html {
 #edu-main .card-body {
     color:#6b747c;
 }
+#classCarousel .card {
+    margin:2vh;
+}
+#classCarousel .card-body {
+    margin-bottom:5vh;
+}
+#classCarousel .carousel-indicators {
+    padding-bottom:2vh;
+}
 
 @media (max-width: 992px) {
     .container-fluid {
