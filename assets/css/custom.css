@@ -132,6 +132,13 @@ html {
     outline: 0;
 }
 
+.far:hover {
+    opacity:0.7;
+}
+
+.far {
+    transition: 0.3s;
+}
 
 #edu-main .card {
     margin-top:1vh;
