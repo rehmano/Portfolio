@@ -56,6 +56,23 @@ html {
     color: #6b747c;
 }
 
+.list-group-mine .list-group-item {
+    background-color: #212121;
+    border: 1px solid black;
+}
+
+.list-group-mine .list-group-item .fab {
+    color: #6b747c;
+}
+
+.list-group-mine .list-group-item .far {
+    color: #6b747c;
+}
+.list-group-mine .list-group-item .list-text {
+    color: #6b747c;
+}
+
+
 .card-title {
     color:white;
 }
