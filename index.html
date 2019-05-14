@@ -1,146 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <meta name="description" content="A portfolio.">
-    <meta name="author" content="Syed Rehman">
+    <meta name="description" content="A portfolio." />
+    <meta name="author" content="Syed Rehman" />
 
     <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-        crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
 
     <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-        crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
 
     <!-- Material Design for Bootstrap -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.0/css/mdb.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.0/css/mdb.min.css"
+    />
 
     <!-- Own custom CSS -->
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/custom.css" />
 
-    
-    <link rel="icon" href="assets/images/title.ico">
+    <link rel="icon" href="assets/images/title.ico" />
     <title>Syed Rehman</title>
-</head>
+  </head>
 
-<body id="home">
+  <body id="home">
+    <nav
+      id="navbar"
+      class="navbar navbar-expand-md navbar-dark fixed-top bg-dark animated fadeInDown"
+    >
+      <a class="navbar-brand" href="#">Syed Rehman</a>
 
-    <nav id="navbar" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark animated fadeInDown">
-        <a class="navbar-brand" href="#">Syed Rehman</a>
+      <!-- Collapsable button for mobile -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <!-- Collapsable button for mobile -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
 
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-
-            <ul class="navbar-nav mr-auto">
-
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-
-            </ul>
-            <a class="nav-link" style="margin-right:1em" href="https://github.com/rehmano/Portfolio">Fork me!</a>
-            <a href="https://github.com/rehmano/Portfolio" class="fab fa-github fa-2x" role="button"></a>
-        </div>
-
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Personal Lab</a>
+          </li>
+        </ul>
+        <a
+          class="nav-link"
+          style="margin-right:1em"
+          href="https://github.com/rehmano/Portfolio"
+          >Fork me!</a
+        >
+        <a
+          href="https://github.com/rehmano/Portfolio"
+          class="fab fa-github fa-2x"
+          role="button"
+        ></a>
+      </div>
     </nav>
 
     <div id="header">
-        <section id="top">
-            <img src="assets/images/wallpaper.jpg" class="static">
-            <a class="btn-scroll animated fadeInDown delay-1s" href="#text"><i class="far fa-arrow-alt-circle-down fa-5x" style="color:#212121"></i></a>
-        </section>
+      <section id="top">
+        <img src="assets/images/wallpaper.jpg" class="static" />
+        <a class="btn-scroll animated fadeInDown delay-1s" href="#text"
+          ><i
+            class="far fa-arrow-alt-circle-down fa-5x"
+            style="color:#212121"
+          ></i
+        ></a>
+      </section>
     </div>
 
     <nav id="stylebar" class="navbar bg-dark"></nav>
 
     <div id="index-main" class="container-fluid">
-        <section id="text">
-            <div class="row">
+      <section id="text">
+        <div class="row">
+          <div class="col-lg-3">
+            <div id="aboutme" class="card animated fadeInUp bg-dark">
+              <div class="card-body">
+                <img
+                  src="assets/images/smaller.png"
+                  class="img-fluid img-thumbnail"
+                />
+                <hr />
+                <h5 class="card-title">This is me! ^</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  Site created utilizing Twitter Bootstrap 4, HTML, and CSS.
+                </h6>
+                <p class="card-text">Made by Syed Rehman</p>
+              </div>
+            </div>
+          </div>
 
-                <div class="col-lg-3">
+          <div class="col-lg-9">
+            <div class="card animated fadeInUp slow card-body bg-dark">
+              <h2 class="card-title">Welcome to my website!</h2>
+              <h6 class="card-subtitle mb-2 text-muted"></h6>
+              <p class="card-text card-text-color">
+                <b>Who am I?</b> Throughout middle school I played a lot of
+                video games, some of which consisted of Runescape, Evony. Due to
+                the pay to win models created by the games a lot of people
+                resorted to private servers and other tools such as bots. I was
+                intrigued by the Runescape private server scene for a while and
+                that was what started my desire to learn more and inspired me to
+                become a developer.
+              </p>
+              <p class="card-text card-text-color">
+                Through this journey I enhanced my grasp on Java and the
+                Object-Oriented paradigm while spending time to learn the
+                concepts behind a couple other languages such as C and C++.
+                These introduced me to the concepts of manual memory management,
+                pointers, data structures, algorithms, etc. This also led me to
+                pursue my bachelors of Computer Science at the SUNY Polytechnic
+                Institute at Utica, New York!
+              </p>
+            </div>
 
-                    <div id="aboutme" class="card animated fadeInUp bg-dark">
-                        <div class="card-body">
-                            <img src="assets/images/smaller.png" class="img-fluid img-thumbnail">
-                            <hr>
-                            <h5 class="card-title">This is me! ^</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Site created utilizing Twitter Bootstrap 4, HTML,
-                                and
-                                CSS.</h6>
-                            <p class="card-text">Made by Syed Rehman</p>
-                        </div>
-                    </div>
-
+            <div id="bottomrow" class="row animated fadeInUp delay-1s">
+              <div class="col-xl-9">
+                <div class="card card-body bg-dark">
+                  <h4 class="card-title">Interests & Hobbies</h4>
+                  <h6 class="card-subtitle mb-2 text-muted"></h6>
+                  <p class="card-text card-text-color">
+                    I’ve went around the world! I’ve visited places such as
+                    Dubai, Pakistan, Canada, and I’ve also been around the
+                    United States! I hope that later in the future that I will
+                    be able to travel more often as I have enjoyed seeing the
+                    world so far and how different it is in comparison to my
+                    daily life.
+                  </p>
+                  <p class="card-text card-text-color">
+                    The states I have lived in for mulitiple years are
+                    California and New York. I have also traveled through
+                    multiple states (Georgia, North + South Carolina...) getting
+                    to others such as Florida.
+                  </p>
+                  <p class="card-text card-text-color">
+                    As for my hobbies, I usually spend the day out with friends
+                    either longboarding or on walks or I stay inside exploring
+                    video games, music, and unfamiliar programming concepts in
+                    an effort to expand my knowledge.
+                  </p>
                 </div>
+              </div>
 
-                <div class="col-lg-9">
-
-                    <div class="card animated fadeInUp slow card-body bg-dark">
-                        <h2 class="card-title">Welcome to my website!</h2>
-                        <h6 class="card-subtitle mb-2 text-muted"></h6>
-                        <p class="card-text card-text-color">
-                            <b>Who am I?</b> Throughout middle school I played a lot of video games, some of which
-                            consisted of
-                            Runescape, Evony.
-                            Due to the pay to win models created by the games a lot of people resorted to private
-                            servers and other tools such as bots.
-                            I was intrigued by the Runescape private server scene for a while and that was what
-                            started
-                            my desire to learn more and inspired me to become a developer.
-
-                        </p>
-                        <p class="card-text card-text-color">
-                            Through this journey I enhanced my grasp on Java and the Object-Oriented paradigm while
-                            spending time
-                            to learn the concepts behind a couple other languages such as C and C++.
-                            These introduced me to the concepts of manual memory management, pointers, data structures,
-                            algorithms, etc.
-                            This also led me to pursue my bachelors of Computer Science at the SUNY
-                            Polytechnic Institute at Utica, New York!
-                        </p>
-                    </div>
-
-                    <div id="bottomrow" class="row animated fadeInUp delay-1s">
-                        <div class="col-xl-9">
-                            <div class="card card-body bg-dark">
-                                <h4 class="card-title">Interests & Hobbies</h4>
-                                <h6 class="card-subtitle mb-2 text-muted"></h6>
-                                <p class="card-text card-text-color">
-                                    I’ve went around the world! I’ve visited places such as Dubai, Pakistan, Canada,
-                                    and
-                                    I’ve also been around the United States!
-                                    I hope that later in the future that I will be able to travel more often as I have
-                                    enjoyed seeing the world so far and how different it is in comparison to my daily
-                                    life.
-                                </p>
-                                <p class="card-text card-text-color">
-                                    The states I have lived in for mulitiple years are California and New York. I have
-                                    also traveled through
-                                    multiple states (Georgia, North + South Carolina...) getting to others such as
-                                    Florida.
-                                </p>
-                                <p class="card-text card-text-color">
-                                    As for my hobbies, I usually spend the day out with friends either
-                                    longboarding or on walks or I stay inside
-                                    exploring video games, music, and unfamiliar programming concepts in an effort to
-                                    expand my knowledge.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3">
-                            <div class="card card-body bg-dark">
-                                <h4 class="card-title">Contact me!</h4>
-                                <!--
+              <div class="col-xl-3">
+                <div class="card card-body bg-dark">
+                  <h4 class="card-title">Contact me!</h4>
+                  <!--
                                     <div id="contact" class="card-icons">
                                     <div>
                                         <a href="https://github.com/rehmano" class="fab fa-github fa-fw fa-2x"></a>
@@ -164,44 +196,51 @@
 
                                 </div>
                                 -->
-                                <ul class="list-group list-group-mine">
-                                    <li class="list-group-item">
-                                        <i class="fab fa-github fa-fw"></i>
-                                        <text class="list-text">Github: </text>
-                                        <a href="https://github.com/rehmano">rehmano</a>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="far fa-envelope-open fa-fw"></i>
-                                        <text class="list-text">Email: </text>
-                                        <a href="mailto:contact@syed.dev">contact@syed.dev</a>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="fab fa-reddit fa-fw"></i>
-                                        <text class="list-text">Reddit: </text>
-                                        <a href="https://www.reddit.com/user/rehmano">rehmano</a>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="fab fa-linkedin fa-fw"></i>
-                                        <text class="list-text">Linkedin: </text>
-                                        <a href="https://www.linkedin.com/in/syed-rehman-498500179">Syed Rehman</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                  <ul class="list-group list-group-mine">
+                    <li class="list-group-item">
+                      <i class="fab fa-github fa-fw"></i>
+                      <text class="list-text">Github: </text>
+                      <a href="https://github.com/rehmano">rehmano</a>
+                    </li>
+                    <li class="list-group-item">
+                      <i class="far fa-envelope-open fa-fw"></i>
+                      <text class="list-text">Email: </text>
+                      <a href="mailto:contact@syed.dev">contact@syed.dev</a>
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fab fa-reddit fa-fw"></i>
+                      <text class="list-text">Reddit: </text>
+                      <a href="https://www.reddit.com/user/rehmano">rehmano</a>
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fab fa-linkedin fa-fw"></i>
+                      <text class="list-text">Linkedin: </text>
+                      <a
+                        href="https://www.linkedin.com/in/syed-rehman-498500179"
+                        >Syed Rehman</a
+                      >
+                    </li>
+                  </ul>
                 </div>
-
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </div>
-    
+
     <!-- Bootstrap core JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
