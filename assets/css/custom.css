@@ -7,9 +7,6 @@ html {
   width: 100%;
 }
 
-.container-card {
-  margin: 2vh;
-}
 #home {
   /** 2019
     
@@ -53,14 +50,6 @@ html {
   color: white;
 }
 
-.jumbotron {
-  background: rgb(33, 33, 33);
-}
-
-.h1 {
-  color: white;
-}
-
 .nav-link {
   outline: 0;
 }
@@ -92,24 +81,6 @@ html {
   min-width: 100%;
   max-height: 100vh;
 }
-#contact span {
-  font-size: 13pt;
-  color: #6b747c;
-}
-
-#contact a {
-  padding-bottom: 1vh;
-  text-align: left;
-  color: white;
-}
-
-.card-icons {
-  margin: 1vh;
-}
-
-.card-block span {
-  color: #6b747c;
-}
 
 .btn-scroll {
   width: 49px;
@@ -132,37 +103,12 @@ html {
   transition: 0.3s;
 }
 
-#edu-main .card {
-  margin-top: 1vh;
-  background-color: #212121;
-  border: 5px solid black;
-}
-
-#edu-main .card-header {
-  color: white;
-}
-#edu-main .card-body {
-  color: #6b747c;
-}
-#classCarousel .card {
-  margin: 2vh;
-}
-#classCarousel .card-body {
-  margin-bottom: 5vh;
-}
-#classCarousel .carousel-indicators {
-  padding-bottom: 2vh;
-}
-
 @media (max-width: 992px) {
   .container-fluid {
     padding-top: 70px;
   }
   #home {
     background-size: 15%;
-  }
-  #edu {
-    background-size: 20%;
   }
   #aboutme {
     margin-left: 3vh;
@@ -171,12 +117,6 @@ html {
   }
   #header img {
     display: none;
-  }
-  #contact {
-    text-align: left;
-  }
-  #contact span {
-    font-size: 14pt;
   }
 
   #stylebar {
