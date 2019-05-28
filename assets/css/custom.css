@@ -103,6 +103,12 @@ html {
   transition: 0.3s;
 }
 
+#aboutme img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (max-width: 992px) {
   .container-fluid {
     padding-top: 70px;
