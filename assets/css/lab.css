@@ -22,3 +22,8 @@ span {
 h4 {
   color: white;
 }
+
+#thoughtHeader {
+  position: absolute;
+  top: 15%;
+}
